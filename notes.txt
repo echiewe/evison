@@ -1,0 +1,10 @@
+main page
+dark: #181818
+grey with green: #292d29
+grey no green: 
+bright green: #33c13b
+dark green: #2d6e31
+
+contact page
+dark: #181818
+light green: #b6cfbb
