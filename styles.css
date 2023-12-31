@@ -1,4 +1,4 @@
-h1, h2, p, input {
+h1, h2, p, input, textarea {
     color: #dddddd;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -97,6 +97,7 @@ body {
 h2 {
     margin-left: 50px;
     margin-top: 50px;
+    font-size: 30px;
 }
 form {
     margin-left: 50px;
@@ -115,6 +116,17 @@ input {
     color: #b6cfbb;
     width: 40%;
     font-size: 2vh;
+}
+textarea {
+    display: block;
+    margin-top: 10px;
+    background-color: #181818;
+    color: #b6cfbb;
+    width: 40%;
+    font-size: 2vh;
+}
+#submit {
+    width: 20%;
 }
 /*CONTACT PAGE*/
 

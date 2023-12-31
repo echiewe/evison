@@ -14,14 +14,25 @@
     <form>
         <label>
             Full Name
-            <input class="inputBox" id="name" name="name" 
+            <input id="name" name="name" required="true"
             type="text" maxlength="20" autocomplete="off"/>
         </label>
         <label>
             Email
-            <input class="inputBox" type="text" id="email" 
-            name="email" autocomplete="off">
+            <input type="text" id="email" required="true"
+            name="email" autocomplete="off" maxlength="20">
         </label>
+        <label>
+            Phone Number
+            <input type="number" id="number" name="number"
+            autocomplete="off" maxlength="15">
+        </label>
+        <label>
+            Message 
+            <textarea id="message" name="message" rows="8"
+            required="true"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit">
     </form>
 </body>
 </html>
