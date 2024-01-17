@@ -8,3 +8,36 @@ dark green: #2d6e31
 contact page
 dark: #181818
 light green: #b6cfbb
+
+.NET
+ASP.NET
+
+Angular
+Angular Material
+
+AngularJS
+Azure DevOps
+Azure Services
+Bootstrap
+C#
+CSS
+DB2
+GIT
+HTML
+JSON
+Jasmine
+JavaScript
+Knockout
+NUnit
+Powershell
+React
+SQL Server
+SVN
+Silverlight
+TFS
+TypeScript
+VB.NET
+VS Unit Test
+VSS
+VsCode
+WinForms
