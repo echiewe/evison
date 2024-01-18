@@ -9,30 +9,11 @@ form.addEventListener("submit", function() {
 })
 var json = JSON.stringify(fields);
 
+fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+        "Content-Type": ""
+    }
+})
 
 // ACCESS KEY: ad474a83-bf6c-479b-9d45-ea302a1fb35f
-
-// var fields = {};
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     fields.fullName = document.getElementById("name");
-// })
-
-// class User {
-//     constructor(fullName, email, phoneNumber, message){
-//         this.fullName = fullName;
-//         this.email = email;
-//         this.phoneNumber = phoneNumber;
-//         this.message = message;
-//     }
-//     constructor(fullName, email, message){
-//         this.fullName = fullName;
-//         this.email = email;
-//         this.phoneNumber = 'N/A';
-//         this.message = message;
-//     }
-// }
-
-// function sendMessage() {
-
-// }

@@ -110,38 +110,62 @@ body {
 
 
 /*CONTACT PAGE*/
-h2 {
-    margin: 50px;
-    font-size: 30px;
+#contactHeader h1 {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 40px; 
+    color: #dddddd;
+
 }
+#contactHeader p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #dddddd;
+}
+
 form {
     margin-left: 50px;
-    
 }
 label {
     display: block;
     color: #dddddd;
-    font-size: 2vh;
+    font-size: 18px;
     margin-top: 20px;
 }
 input {
     display: block;
     margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
     background-color: #181818;
     color: #b6cfbb;
     width: 40%;
-    font-size: 2vh;
+    font-size: 18px;
+    border: solid 1px #b6cfbb;
+    height: 30px;
+    border-radius: 5px;
 }
 textarea {
     display: block;
     margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
     background-color: #181818;
     color: #b6cfbb;
     width: 40%;
-    font-size: 2vh;
+    font-size: 18px;
+    border: solid 1px #b6cfbb;
+    border-radius: 5px;
 }
 #submit {
     width: 20%;
+}
+#submit:hover{
+    color: #181818;
+    background-color: #b6cfbb;
 }
 /*CONTACT PAGE*/
 

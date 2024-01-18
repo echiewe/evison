@@ -11,30 +11,33 @@
     <div class="background">
         <img src="images/contactgreen.jpg">
     </div>
-    <h2>Send me a message and I'll get back to you as soon as I can!</h2>
+    <div id="contactHeader">
+        <h1>Contact Me!</h1>
+        <p>Send me a message and I'll get back to you as soon as I can!</p>
+    </div>
+    
     <form action="https://api.web3forms.com/submit" method="POST" id="form">
         <input type="hidden" name="accessKey" value="ad474a83-bf6c-479b-9d45-ea302a1fb35f"/>
         <input type="hidden" name="subject" value="New Message for Darl Chiew!"/>
-        <label>
-            Full Name
+        <!-- <label> -->
             <input id="name" name="name" required="true"
-            type="text" maxlength="20" autocomplete="off"/>
-        </label>
-        <label>
-            Email
+            type="text" maxlength="20" autocomplete="off" placeholder="Full Name"/>
+        <!-- </label>
+        <label> -->
+            <!-- Email -->
             <input type="text" id="email" required="true"
-            name="email" autocomplete="off" maxlength="20">
-        </label>
-        <label>
-            Phone Number
+            name="email" autocomplete="off" maxlength="20" placeholder="Email">
+        <!-- </label>
+        <label> -->
+            <!-- Phone Number -->
             <input type="number" id="number" name="number"
-            autocomplete="off" maxlength="15">
-        </label>
-        <label>
-            Message 
+            autocomplete="off" maxlength="15" placeholder="Phone Number (optional)">
+        <!-- </label>
+        <label> -->
+            <!-- Message  -->
             <textarea id="message" name="message" rows="8"
-            required="true"></textarea>
-        </label>
+            required="true" placeholder="Your Message"></textarea>
+        <!-- </label> -->
         <input id="submit" type="submit" value="Submit">
     </form>
 </body>
